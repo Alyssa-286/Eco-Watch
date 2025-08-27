@@ -20,6 +20,7 @@ API_TOKEN = os.getenv("API_TOKEN")
 SENDER_EMAIL = os.getenv("SENDER_EMAIL")
 SENDER_PASSWORD = os.getenv("SENDER_PASSWORD")
 
+
 THRESHOLDS = {
     "pm25": 25, "pm10": 50, "co": 10,
     "no2": 200, "so2": 20, "o3": 100
